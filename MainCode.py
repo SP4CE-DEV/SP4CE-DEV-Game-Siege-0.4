@@ -212,13 +212,13 @@ while GAME:
         enemy1S1_IMG = enemy1S2_IMG
         enemy2Yspeed = 2.5
         enemy1Yspeed = 1.6
-        if stage == 1:
+        if stage == 25:
             music2.play()
             stage2Ann.play()
             for i in range(1,70):
                 screen.blit(Stage2Ann_IMG, (0,0))
                 pygame.display.update()
-    if score == 8:
+    if score == 60:
         stage2 += 1
         music2.set_volume(0)
         enemy2S1_IMG = enemy2S3_IMG
